@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  /* text-shadow: 0 0 1px black; */
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 38px;
+  height: 38px;
+  margin-top: 33px;
+}
+
+#main {
+  background-color: #1f2937;
+  margin: auto auto;
+  height: 729px;
+  width: 550px;
+}
+
+#header-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #6943ff;
+  width: 550px;
+  height: 285px; /* 729px */
+}
+
+#header-title {
+  height: 38px;
+  padding: 0px;
+  margin: auto auto;
+}
+
+#abc1 {
+  height: 83px;
+  width: 117px;
+  border-radius: 5px;
+  margin: 30px auto auto auto;
+  padding: 0px;
+  border: 2px solid #b295ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#length-input {
+  height: 51px;
+  width: 211px;
+  text-align: center;
+  background: transparent;
+  font-weight: 800;
+  line-height: 24px;
+  font-size: 58px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  padding: 0px;
+  margin-bottom: 26px;
+}
+
+#abc2 {
+  margin: auto auto auto auto;
+  border: none;
+  border-radius: 5px;
+}
+
+#convert-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 117px;
+  height: 42px;
+  padding: 0px;
+  margin: 0px;
+  color: #3d3d3d;
+}
+
+/* #footer-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 550px;
+  height: 444px;
+  background-color: #1f2937;
+} */
+
+#bottom-div {
+  margin: 35px auto auto auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #273549;
+  margin: 12px auto;
+  width: 500px;
+  height: 109px;
+}
+
+.calc-header {
+  height: 25px;
+  width: 346px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ccc1ff;
+  margin-top: 31px;
+  margin-bottom: 5px;
+}
+
+.output {
+  margin-top: 4px;
+  height: 25px;
+  width: 346px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
